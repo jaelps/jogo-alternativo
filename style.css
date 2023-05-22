@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    color: green;
+    font-size: 12px;
+    font-family: 'Spline Sans Mono', monospace;
+}
+
+.cmd{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#x{
+    background-color: black;
+    border: none;
+    color: green;
+}
+
+#x:focus{
+    border: none;
+    outline: 0;
+}
